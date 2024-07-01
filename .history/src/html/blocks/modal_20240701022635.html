@@ -1,0 +1,30 @@
+<section class="modal">
+  <h2 class="visually-hidden">Всплывающее окно заказа товара</h2>
+  <div class="modal__order container">
+    <h3 class="modal__order-title">Добавить <br>в корзину</h3>
+    <form class="modal__order-form" method="get" action="https://echo.htmlacademy.ru">
+      <fieldset class="modal__order-fieldset">
+        <legend class="modal__order-legend">Выберите размер:</legend>
+        <ul class="modal__order-control">
+          <li class="modal__order-control-checkbox">
+            <input class="modal__order-control-input visually-hidden" checked type="checkbox" name="s-value"
+              id="s-size">
+            <label class="modal__order-control-label" for="s-size">S</label>
+          </li>
+
+          <li class="modal__order-control-checkbox">
+            <input class="modal__order-control-input visually-hidden" type="checkbox" name="m-value" id="m-size">
+            <label class="modal__order-control-label" for="m-size">M</label>
+          </li>
+
+          <li class="modal__order-control-checkbox">
+            <input class="modal__order-control-input visually-hidden" type="checkbox" name="l-value" id="l-size">
+            <label class="modal__order-control-label" for="l-size">L</label>
+          </li>
+        </ul>
+      </fieldset>
+      <button class="modal__order-add" type="submit">Добавить</button>
+    </form>
+  </div>
+    <div class="overlay"></div>
+  </section>
