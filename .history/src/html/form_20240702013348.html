@@ -9,20 +9,16 @@
 	<link rel="stylesheet" href="./css/main.css" />
 
 	<link rel="icon" href="favicon.ico">
-	<link rel="icon" type="image/x-icon" href="./img/favicons/icon.svg">
-	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
-    <link rel="manifest" href="manifest.webmanifest">
+	<link rel="icon" href="./img/favicons/icon.svg" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/180.png">
+	<link rel="manifest" href="manifest.webmanifest">
 </head>
 
 <body class="page__body">
 	@@include('blocks/page-header.html')
 	<main class="page-form">
 		<h1 class="visually-hidden">Магазин вязанных изделий «Мишка»</h1>
-		<div class="side-header">
-            <div class="side-header__wrapper">
-              <h2 class="side-header__title header-title">Вязание на заказ</h2>
-            </div>
-          </div>
+		@@include('blocks/side-header.html')
         @@include('blocks/form-content.html')
 	</main>
 	@@include('blocks/page-footer.html')
